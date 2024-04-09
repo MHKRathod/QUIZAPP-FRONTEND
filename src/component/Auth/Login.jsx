@@ -73,6 +73,5 @@ export const AuthLogin = () => {
                 </div>
             </div>
         </div>
-
     )
 }

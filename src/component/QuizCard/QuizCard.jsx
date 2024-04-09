@@ -25,7 +25,7 @@ export const QuizCard = ({quizCategory}) => {
     return (
         <div className="container d-flex direction-column">
             <div className="img-box">
-                <img className="img" src={image} alt="quizcard" />
+                <img className="img" src={marvel.jpg} alt="quizcard" />
             </div>
             <div className="details">
                 <h3 className="title">{title}</h3>

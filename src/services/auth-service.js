@@ -5,7 +5,7 @@ export const loginHandler = async (username, password) => {
     const {
       data: { token },
       status,
-    } = await axios.post("https://busy-pear-panda-gown.cyclic.app/auth/login", {
+    } = await axios.post("https://quizzyapp-e896bfaca54b.herokuapp.com/auth/login", {
       username: username,
       password: password,
     });

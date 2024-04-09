@@ -11,7 +11,7 @@ export const Quiz = () => {
       try {
         const {
           data: { data },
-        } = await axios.get("https://busy-pear-panda-gown.cyclic.app/quiz", {
+        } = await axios.get("https://quizzyapp-e896bfaca54b.herokuapp.com/quiz ", {
           headers: { authorization: localStorage.getItem("token") },
         });
         const filteredData =
